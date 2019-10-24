@@ -55,6 +55,9 @@ include 'styles.php';
       if(@$_SESSION['user']['role'] == "father") {
     ?>
       <li class="nav-item">
+        <a class="nav-link" href="/pages/father/savings.php">Savings</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="/pages/father/planner.php">Budget Planner</a>
       </li>
       <li class="nav-item">
@@ -66,13 +69,21 @@ include 'styles.php';
       <li class="nav-item">
         <a class="nav-link" href="/pages/father/reminders.php">Reminders</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pages/father/request-money.php">Request Money</a>
+      </li>
     <?php
       }
     ?>
-    
+    <?php
+      if(@$_SESSION['user']['role']) {
+    ?>
       <li class="nav-item">
         <a class="nav-link" href="/signout.php">Logout</a>
       </li>
+    <?php
+      }
+    ?>
     </ul>
   </div>
 </nav>

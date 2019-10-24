@@ -30,6 +30,7 @@ include '../../styles.php';
             <td>10/19/19</td>
             <td><button class="btn btn-danger btn-sm">Delete</button></td>
             <td><button class="btn btn-success btn-sm">Edit</button></td>
+            <td><button class="btn btn-primary btn-sm">Paid</button></td>
         </tr>
         <tr>
             <th scope="row">1</th>
@@ -38,6 +39,7 @@ include '../../styles.php';
             <td>10/19/25</td>
             <td><button class="btn btn-danger btn-sm">Delete</button></td>
             <td><button class="btn btn-success btn-sm">Edit</button></td>
+            <td><button class="btn btn-primary btn-sm">Paid</button></td>
         </tr>
 
         </tbody>

@@ -9,8 +9,8 @@ include 'navigation.php';
             <div class="col-sm">
             <form action="./requests/auth.php" method="post">
                 <div class="form-group">
-                <label for="exampleInputEmail1">Username</label>
-                <input type="text" name="username" class="form-control" placeholder="Username">
+                    <label for="exampleInputEmail1">Username</label>
+                    <input type="text" name="username" class="form-control" placeholder="Username">
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
